@@ -12,8 +12,13 @@ public class Main {
         lhs.add(4);
         lhs.add(3);
         lhs.add(5);
+        lhs.add(5);
 
-//        System.out.println("lhs content is " +lhs);
+//        lhs.remove(5);
+
+        System.out.println("lhs content is " +lhs);
+
+        System.out.println("----------------------------------------------------------------");
 
         Iterator<Integer> it = lhs.iterator();
         while (it.hasNext()) {
